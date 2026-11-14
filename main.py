@@ -1,6 +1,7 @@
 import os, shutil
 
-# Copy the v3 entry image ("The paper plane") to the output directory.
+# Copy the v4 entry image ("Birthday surprise": grandmother laughing as a
+# golden retriever puppy pops out of a birthday gift box) to the output dir.
 # A plain copy is deterministic: both runs write the same bytes.
 # No network, no randomness: the output is exactly the shipped image.
 # The file is a JPEG by magic bytes; the name stays entry.png either way.
